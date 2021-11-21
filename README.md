@@ -1,4 +1,4 @@
-# Terminus [![Docker Status](https://github.com/ansjin/terminus/blob/master/Docs/docker-hub.jpg)](https://hub.docker.com/u/terminusimages/dashboard/)
+# Terminus [![Docker Status](Docs/docker-hub.jpg)](https://hub.docker.com/u/terminusimages/dashboard/)
 Terminus is a microservice’s performance modeling and sand-boxing tool.
 Terminus is derived from the word "terminal" which means end point of something. Terminus consists of components implementing microservices architecture; these components can be scaled up and down on demand.
 The tool automates the setup of a Kubernetes cluster and deploys the monitoring services and a load generator. It was developed using Golang and Python. Terminus comprises both the API and the user interface allowing the user to easily interact with the tool and conduct comprehensive performance modeling for an arbitrary microservice application. 
@@ -6,7 +6,7 @@ The tool automates the setup of a Kubernetes cluster and deploys the monitoring 
 ## Overall Architecture
 The architecture of the tool and the communication paths between its components in a typical use-case are shown in below figure: 
 <p align="center">
-<img src="https://github.com/ansjin/terminus/blob/master/Docs/architecture.png"></img>
+<img src="Docs/architecture.png"></img>
 </p> 
 
 ## Setup
@@ -242,7 +242,7 @@ To use those dataset for the initial setup, follow the below procedure.
  Tree formed from the docker-compose.yml file of this application can be seen in below figure as an Example.
   
  <p align="center">
- <img width="550" height="271" src="https://github.com/ansjin/terminus/blob/master/Docs/app_tree.png"></img>
+ <img width="550" height="271" src="Docs/app_tree.png"></img>
  </p>
  
 ## REST API Documentation
